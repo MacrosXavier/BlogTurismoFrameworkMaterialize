@@ -1,0 +1,97 @@
+.contenedor-total{
+  background: url(../img/usuhaia.jpg);
+  background-attachment: fixed;
+  background-position: relative;
+}
+
+.espacio-fondo{
+  background:#b3e5fc;
+  height: 13rem;
+  background-attachment: fixed;
+  position: static;
+}
+
+.contenedor{
+  padding: 1rem;
+  background-attachment: inherit;
+}
+
+.espacio-eslogan{
+  height: 8rem;
+}
+
+.eslogan{
+  color: #78909c;
+  font-style: italic;
+}
+
+.galeria{
+  opacity: 0;
+}
+
+.btn-nav{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.btn-social{
+  margin: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.imagen-medio img{
+  height: 40rem;
+}
+
+.img-publica{
+  width:28rem;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info-publica{
+  padding: 1rem;
+}
+
+.info-catedral{
+  text-align: justify;
+}
+
+.info-perfil{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.img-perfil{
+    padding-top: 1rem;
+}
+
+@media (max-width: 770px) {
+ .espacio-eslogan{
+   height: 0;
+ }
+
+ .posicion-btn{
+  align-content: center;
+  align-self: center;
+ }
+
+ .input-field{
+   align-content: center;
+   align-self: center;
+ }
+
+ .img-publica{
+   width: 25.5rem;
+ }
+
+}
